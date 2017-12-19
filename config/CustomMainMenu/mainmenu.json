@@ -1,6 +1,15 @@
 {
     "images":
     {
+        "logo":
+        {
+            "image" : "ontherocks:textures/gui/logo.png",
+            "posX" : -185,
+            "posY" : 30,
+            "width" : 45,
+            "height" : 45,
+            "alignment" : "top_center"
+        },
         "title":
         {
             "image" : "custommainmenu:textures/gui/minecraft.png",
@@ -9,16 +18,6 @@
             "width" : 512,
             "height" : 512,
             "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
         }
     },
     
@@ -26,119 +25,108 @@
     {
         "singleplayer":
         {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+           "text" : "menu.singleplayer",
+            "posX" : -50,
+            "posY" : -50,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "center",
+            "texture" : "ontherocks:textures/gui/button.png",
+            "shadow" : false,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
         },
-        
+       
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : -50,
+            "posY" : -30,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "center",
+            "texture" : "ontherocks:textures/gui/button.png",
+            "shadow" : false,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
+       
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "posX" : -50,
+            "posY" : -10,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "center",
+            "texture" : "ontherocks:textures/gui/button.png",
+            "shadow" : false,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
             }
         },
-            
+           
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : -50,
+            "posY" : 10,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "center",
+            "texture" : "ontherocks:textures/gui/button.png",
+            "shadow" : false,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
+       
         "language":
         {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
+            "text" : "Language",
+            "posX" : -50,
+            "posY" : 30,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "center",
+            "texture" : "ontherocks:textures/gui/button.png",
+            "shadow" : false,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
         },
-        
-        "refresh":
+       
+        "quit":
         {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
+            "text" : "menu.quit",
+            "posX" : -50,
+            "posY" : 50,
+            "width" : 100,
             "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "alignment" : "center",
+            "texture" : "ontherocks:textures/gui/button.png",
+            "shadow" : false,
             "action" : 
             {
-                "type" : "refresh"
+                "type" : "quit"
             }
         }
     },
     
     "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
-        },
-        
+    {        
         "fml":
         {
             "text" : "",
@@ -150,23 +138,19 @@
     },
     
     "other":
-    {
+    {        
         "splash-text":
         {
             "posX" : 90,
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
+            "texts" : "on the Rocks LITE"
         },
-        
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "ontherocks:textures/gui/background.png",
+            "mode" : "stretch"
         }
     }
 }

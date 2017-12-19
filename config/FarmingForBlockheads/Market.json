@@ -6,7 +6,7 @@
     "Pams Harvestcraft Saplings": true,
     "Vanilla Saplings": true,
     "Bonemeal": true,
-    "Animal Eggs": false,
+    "Animal Eggs": true,
     "Pams Harvestcraft Seeds": true
   },
   "defaults payment": {
