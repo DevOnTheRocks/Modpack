@@ -14,3 +14,11 @@ Altar.addConstellationAltarRecipe(<projecte:condenser_mk1>, 2000, 10, [
 
 // Transmutation Table
 recipes.remove(<projecte:transmutation_table>);
+Altar.addConstellationAltarRecipe(<projecte:transmutation_table>, 2000, 10, [
+    <projecte:item.pe_matter:1>, <projecte:item.pe_matter>, <projecte:item.pe_matter:1>,
+    <projecte:item.pe_matter>, <draconicevolution:dragon_heart>, <projecte:item.pe_matter>,
+    <projecte:item.pe_matter:1>, <projecte:item.pe_matter>, <projecte:item.pe_matter:1>,
+    <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:2>,
+    <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>,<projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:1>,
+    <projecte:item.pe_covalence_dust:1>, <minecraft:nether_star>,<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust>
+]);
