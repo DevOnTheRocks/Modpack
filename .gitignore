@@ -9,6 +9,8 @@ config/codechicken/*
 config/jei/worldSettings.cfg
 config/MouseTweaks.cfg
 config/ProjectE/*
+!config/ProjectE/ProjectE.cfg
+!config/ProjectE/custom_emc.json
 config/journeymap_ModInfo.cfg
 config/splash.properties
 !resources/*
