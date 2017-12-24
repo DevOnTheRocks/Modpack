@@ -35,6 +35,10 @@
     {
       "item": "thermalfoundation:material|770",
       "emc": 16
+    },
+    {
+      "item": "extrautils2:drum|4",
+      "emc": 0
     }
   ]
 }

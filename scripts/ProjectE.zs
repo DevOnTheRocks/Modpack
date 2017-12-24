@@ -4,7 +4,6 @@ import mods.astralsorcery.Altar;
 // Dark Matter
 val dark = <projecte:item.pe_matter>;
 recipes.remove(<projecte:matter_block>);
-recipes.addShaped(ojecte:collector_mk1>);
 recipes.addShaped("OTR_DMB", <projecte:matter_block>, [
     [dark, dark, dark],
     [dark, dark, dark],
@@ -14,7 +13,6 @@ recipes.addShaped("OTR_DMB", <projecte:matter_block>, [
 // Red Matter
 val red = <projecte:item.pe_matter:1>;
 recipes.remove(<projecte:matter_block:1>);
-recipes.addShaped(ojecte:collector_mk1>);
 recipes.addShaped("OTR_RMB", <projecte:matter_block:1>, [
     [red, red, red],
     [red, red, red],
