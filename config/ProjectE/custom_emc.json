@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "item": "thermalfoundation:material|2048",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2050",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2052",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2049",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|2051",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|2053",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|772",
+      "emc": 32
+    },
+    {
+      "item": "immersiveengineering:material|24",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|770",
+      "emc": 16
+    }
+  ]
+}
