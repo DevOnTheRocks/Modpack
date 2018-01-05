@@ -8,7 +8,7 @@ val water = <extrautils2:drum:4>
     .withDisplayName("§bInfinite Water Source");
 recipes.addShaped("OTR_WATER", water, [
     [<ore:ingotIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotIron>],
-    [<ore:ingotIron>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:ingotIron>],
+    [<ore:ingotIron>, <minecraft:water_bucket>, <ore:ingotIron>],
     [<ore:ingotIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotIron>]
 ]);
 JEI.addItem(water);

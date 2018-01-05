@@ -1,7 +1,8 @@
 // Actually Additions
 import mods.thermalexpansion.Crucible;
+import mods.thermalexpansion.Imbuer;
 
 // Canola Oil Transposer Recipes
-mods.thermalexpansion.Crucible.addRecipe(<liquid:canolaoil> * 80, <actuallyadditions:item_misc:13>, 50);
-//Imbuner.addRecipe(<liquid:refinedcanolaoil> * 1000, <actuallyadditions:item_misc:23>, <liquid:crystaloil> * 1000, 50);
-//Imbuner.addRecipe(<liquid:crystaloil> * 1000, <actuallyadditions:item_misc:24>, <liquid:empoweredoil> * 1000, 50);
+Crucible.addRecipe(<liquid:canolaoil> * 80, <actuallyadditions:item_misc:13>, 200);
+Imbuer.addRecipe(<liquid:crystaloil> * 1000, <actuallyadditions:item_misc:23>, <liquid:refinedcanolaoil> * 1000, 200);
+Imbuer.addRecipe(<liquid:empoweredoil> * 1000, <actuallyadditions:item_misc:24>, <liquid:crystaloil> * 1000, 200);

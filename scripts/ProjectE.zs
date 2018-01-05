@@ -1,23 +1,28 @@
 // ProjectE
 import mods.astralsorcery.Altar;
+import mods.thermalexpansion.Compactor;
 
-// Dark Matter
+// Dark Matter Block
 val dark = <projecte:item.pe_matter>;
 recipes.remove(<projecte:matter_block>);
+Compactor.removeStorageRecipe(dark);
 recipes.addShaped("OTR_DMB", <projecte:matter_block>, [
     [dark, dark, dark],
     [dark, dark, dark],
     [dark, dark, dark]
 ]);
+Compactor.addStorageRecipe(<projecte:matter_block>, dark * 9, 900);
 
-// Red Matter
+// Red Matter Block
 val red = <projecte:item.pe_matter:1>;
 recipes.remove(<projecte:matter_block:1>);
+Compactor.removeStorageRecipe(red);
 recipes.addShaped("OTR_RMB", <projecte:matter_block:1>, [
     [red, red, red],
     [red, red, red],
     [red, red, red]
 ]);
+Compactor.addStorageRecipe(<projecte:matter_block:1>, red * 9, 900);
 
 // Matter Condenser
 recipes.remove(<projecte:condenser_mk1>);

@@ -1,0 +1,29 @@
+// Dark Matter
+item.advgenerators.turbine_blade_darkmatter.name=§5ark Matter Turbine Blade
+item.advgenerators.turbine_rotor_darkmatter.name=§5Dark Matter Turbine Rotor
+item.advgenerators.turbine_kit_darkmatter.name=§5Dark Matter Turbine Upgrade Kit
+tile.advgenerators.turbine_darkmatter.name=§5Dark Matter Turbine
+
+// Red Matter
+item.advgenerators.turbine_blade_redmatter.name=§4Red Matter Turbine Blade
+item.advgenerators.turbine_rotor_redmatter.name=§4Red Matter Turbine Rotor
+item.advgenerators.turbine_kit_redmatter.name=§4Red Matter Turbine Upgrade Kit
+tile.advgenerators.turbine_redmatter.name=§4Red Matter Turbine
+
+// Draconic
+item.advgenerators.turbine_blade_draconic.name=§dDraconic Turbine Blade
+item.advgenerators.turbine_rotor_draconic.name=§dDraconic Turbine Rotor
+item.advgenerators.turbine_kit_draconic.name=§dDraconic Turbine Upgrade Kit
+tile.advgenerators.turbine_draconic.name=§dDraconic Turbine
+
+// Awakened
+item.advgenerators.turbine_blade_awakened.name=§6Awakened Turbine Blade
+item.advgenerators.turbine_rotor_awakened.name=§6Awakened Turbine Rotor
+item.advgenerators.turbine_kit_awakened.name=§6Awakened Turbine Upgrade Kit
+tile.advgenerators.turbine_awakened.name=§6Awakened Turbine
+
+// Chaotic
+item.advgenerators.turbine_blade_chaotic.name=§8Chaotic Turbine Blade
+item.advgenerators.turbine_rotor_chaotic.name=§8Chaotic Turbine Rotor
+item.advgenerators.turbine_kit_chaotic.name=§8Chaotic Turbine Upgrade Kit
+tile.advgenerators.turbine_chaotic.name=§8Chaotic Turbine
