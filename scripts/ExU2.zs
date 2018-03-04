@@ -1,4 +1,5 @@
-// ExtraUtilities2
+#modloaded extrautils2
+
 import mods.jei.JEI;
 
 // Stone Drum Upgrade
@@ -15,3 +16,7 @@ recipes.removeShapeless(<extrautils2:drum:4>);
 JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}));
 JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}));
 JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}));
+
+// Angel Rings
+JEI.removeAndHide(<extrautils2:chickenring:*>);
+JEI.removeAndHide(<extrautils2:angelring:*>);
